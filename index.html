@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Fill in the Blanks Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1>填空練習</h1>
+    <div class ="question-container" id="question-container">
+      <p>A paperclip, made of steel wire bent into a hooped shape, is an instrument used to hold sheets of paper together. This common <input class="blank "id="blank-0" type="text"> is a wonder of simplicity and function. But where did this simple, cheap, and indispensable invention come from?<br><br>
+        In the late 19th century, the most common way to hold papers together was by using a pin. Although the pin was an inexpensive tool and was easily <input class="blank "id="blank-1" type="text">, it would leave holes in the paper. Later, as steel 
+        wire became more common, inventors began to notice its elastic feature. With this feature, it could be stretched and <input class="blank "id="blank-2" type="text">,various clip-like objects. In the years just prior to 1900, quite a few paperclip 
+        designs emerged. The name most frequently <input class="blank "id="blank-3" type="text"> the paperclip invention is Johan Vaaler, a Norwegian inventor. However, Vaaler’s clips were not the same as the paperclips currently in use. Specifically, they did not have the interior loop we see today. The <input class="blank "id="blank-4" type="text"> 
+        looped design was invented by Gem Manufacturing Ltd. in England. This clip is therefore sometimes <input class="blank "id="blank-5" type="text"> the Gem clip.<br><br>
+        Because of Vaaler, the paperclip played an important <input class="blank "id="blank-6" type="text"> role in Norway. During World War II, Norway was occupied by the Nazis. Norwegians were prohibited from wearing any <input class="blank "id="blank-7" type="text"> of their 
+        national unity, such as buttons with the initials of their king. Thus, in <input class="blank "id="blank-8" type="text">, they started wearing paperclips to show their solidarity. The reason for doing this was simple: Paperclips were a Norwegian invention whose original function was to bind together. After the war, a giant paperclip statue was erected in Oslo to
+        <input class="blank "id="blank-9" type="text"> Vaaler—even though his design was never actually manufactured.
+      </p>
+    </div>
+    <div class="options">
+      <button class="option-btn" onclick="fillBlank('device')">A. device</button>
+      <button class="option-btn" onclick="fillBlank('symbol')">B. symbol</button>
+      <button class="option-btn" onclick="fillBlank('familiar')">C. familiar</button>
+      <button class="option-btn" onclick="fillBlank('removable')">D. removable</button>
+      <button class="option-btn" onclick="fillBlank('known as')">E. known as</button>
+      <button class="option-btn" onclick="fillBlank('protest')">F. protest</button>
+      <button class="option-btn" onclick="fillBlank('associated with')">G. associated with</button>
+      <button class="option-btn" onclick="fillBlank('twisted into')">H. twisted into</button>
+      <button class="option-btn" onclick="fillBlank('historical')">I. historical</button>
+      <button class="option-btn" onclick="fillBlank('honored')">J. honored</button>
+    </div>
+    <button id="check-btn" onclick="checkAnswers()">檢查答案</button>
+    <div id="result-container"></div>
+  </body>
+</html>

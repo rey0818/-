@@ -1,0 +1,69 @@
+body{
+    font-size: 1vmax;
+}
+.options {
+    position: relative;
+    left: 12%;
+    max-width: 75vmax;
+    margin-top: 1vmax;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1vmax;
+  }
+  
+  /* 選項按鈕 */
+  .option-btn {
+    display: block;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  /* 選項按鈕 hover 樣式 */
+  .option-btn:hover {
+    background-color: lightgray;
+  }
+  
+  /* 檢查按鈕 */
+  #check-btn {
+    position: relative;
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  /* 檢查按鈕 hover 樣式 */
+  #check-btn:hover {
+    background-color: lightgray;
+  }
+  
+  /* 正確答案提示 */
+  .correct {
+    color: green;
+    font-weight: bold;
+  }
+  
+  /* 錯誤答案提示 */
+  .incorrect {
+    color: red;
+    font-weight: bold;
+  }
+  .question-container{
+    position: relative;
+    left:12%;
+    display: flex;
+    align-items: center;
+    max-width: 75vmax;
+  }
+  .blank{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-style: solid;
+    border-radius: 0.5vh;
+    width: 15ch;
+}
